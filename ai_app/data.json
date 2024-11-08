@@ -1,0 +1,54 @@
+{
+    "scenes": [
+      {
+        "id": 1,
+        "title": "What is IoT?",
+        "points": [
+          "IoT stands for Internet of Things",
+          "Network of physical devices, vehicles, and other items",
+          "Embedded with sensors, software, and connectivity"
+        ],
+        "script": "Welcome to our introduction to IoT MQTT. Let's start with the basics. IoT, or Internet of Things, refers to the network of physical devices, vehicles, and other items embedded with sensors, software, and connectivity, allowing them to collect and exchange data."
+      },
+      {
+        "id": 2,
+        "title": "What is MQTT?",
+        "points": [
+          "MQTT stands for Message Queuing Telemetry Transport",
+          "Lightweight messaging protocol",
+          "Ideal for low-bandwidth, high-latency networks"
+        ],
+        "script": "Now, let's move on to MQTT. MQTT stands for Message Queuing Telemetry Transport. It's a lightweight messaging protocol designed for low-bandwidth, high-latency networks, making it perfect for IoT applications."
+      },
+      {
+        "id": 3,
+        "title": "How does MQTT work?",
+        "points": [
+          "Publish-Subscribe model",
+          "Brokers manage message distribution",
+          "Clients publish and subscribe to topics"
+        ],
+        "script": "So, how does MQTT work? It uses a Publish-Subscribe model, where brokers manage message distribution. Clients publish messages to topics, and other clients subscribe to receive those messages."
+      },
+      {
+        "id": 4,
+        "title": "MQTT Benefits",
+        "points": [
+          "Low overhead",
+          "Bi-directional communication",
+          "Scalable and reliable"
+        ],
+        "script": "What are the benefits of using MQTT? It has low overhead, enabling efficient communication. It also supports bi-directional communication, allowing devices to both send and receive data. Plus, it's scalable and reliable."
+      },
+      {
+        "id": 5,
+        "title": "Conclusion",
+        "points": [
+          "IoT MQTT enables efficient device communication",
+          "Perfect for low-bandwidth networks",
+          "Ideal for various IoT applications"
+        ],
+        "script": "In conclusion, IoT MQTT enables efficient device communication, making it perfect for low-bandwidth networks. Its applications are vast, from smart homes to industrial automation."
+      }
+    ]
+  }

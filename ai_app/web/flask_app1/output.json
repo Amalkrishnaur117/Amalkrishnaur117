@@ -1,0 +1,33 @@
+{
+  "scenes": [
+    {
+      "id": 1,
+      "title": "MQTT Basics",
+      "points": [
+        "MQTT is a lightweight, publish-subscribe-based messaging protocol.",
+        "It's often used in IoT applications due to its low overhead and efficiency."
+      ],
+      "script": "MQTT is a lightweight, publish-subscribe-based messaging protocol designed for constrained networks. It's optimized for low-bandwidth, low-latency communication, making it an ideal choice for IoT applications. MQTT operates on top of the CoAP protocol, which provides a standardized interface to devices."
+    },
+    {
+      "id": 2,
+      "title": "MQTT Connection Flow",
+      "points": [
+        "An MQTT client establishes a connection with an MQTT broker using a unique identifier.",
+        "The client then authenticates itself and requests access to the topic it's interested in subscribing to.",
+        "If successful, the client receives the initial message from the broker and begins to receive subsequent messages."
+      ],
+      "script": "When establishing a connection, the MQTT client uses its unique identifier (client ID) to negotiate with the broker. The client then authenticates itself using one of the three authentication methods: username/password, public key authentication, or certificate-based authentication. Once authenticated, the client requests access to the topic it's interested in subscribing to by sending a SUBSCRIBE request to the broker."
+    },
+    {
+      "id": 3,
+      "title": "MQTT Message Structure",
+      "points": [
+        "MQTT messages consist of a header and payload.",
+        "The header contains information about the message, such as topic, QoS, and retention duration.",
+        "The payload is the actual data being sent or received."
+      ],
+      "script": "An MQTT message consists of two main parts: the header and the payload. The header provides metadata about the message, including the topic name, quality of service (QoS) level, and retention duration. The payload contains the actual data being sent or received, which can be a binary string, a JSON object, or another type of formatted data."
+    }
+  ]
+}

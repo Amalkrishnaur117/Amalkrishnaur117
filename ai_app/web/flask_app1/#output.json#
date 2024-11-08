@@ -1,0 +1,45 @@
+{
+    "id": 1,
+    "title": "Introduction to MQTT",
+    "points": [
+      "MQTT (Message Queuing Telemetry Transport) is a lightweight messaging protocol",
+      "It is widely used in IoT applications due to its efficiency and scalability"
+    ],
+    "script": "MQTT is designed for low-bandwidth, low-latency communication. It uses a publish-subscribe model to allow devices to communicate with each other without the need for explicit connections."
+  },
+  {
+    "id": 2,
+    "title": "MQTT Message Structure",
+    "points": [
+      "MQTT messages consist of a header and a payload",
+      "The header contains the message topic, QoS (Quality of Service), and retention time"
+    ],
+    "script": "In MQTT, each message has three main parts: header, payload, and optional fields. The header specifies the topic and QoS, while the payload is the actual data being sent."
+  },
+  {
+    "id": 3,
+    "title": "QoS in MQTT",
+    "points": [
+      "MQTT Quality of Service (QoS) determines the level of reliability required",
+      "QoS 0: At most once, best effort; QoS 1: At least once, guaranteed delivery; QoS 2: Exactly once"
+    ],
+    "script": "In MQTT, QoS is used to specify the level of reliability needed for message delivery. The three levels are QoS 0 (at most once), QoS 1 (at least once), and QoS 2 (exact once)"
+  },
+  {
+    "id": 4,
+    "title": "RetentionPolicy",
+    "points": [
+      "MQTT Retention Period determines how long a message is stored on the broker",
+      "Default retention period is 2 hours"
+    ],
+    "script": "In MQTT, the Retention Period specifies for how long messages are kept by the broker. This can be adjusted to suit the needs of the application."
+  },
+  {
+    "id": 5,
+    "title": "Security in MQTT",
+    "points": [
+      "MQTT uses a secure authentication mechanism using client certificates",
+      "Using secure communication protocols such as SSL/TLS"
+    ],
+    "script": "MQTT secures communication through the use of client certificates and secure connection protocols like SSL/TLS. This ensures that only authorized devices can connect to the broker."
+  }

@@ -1,0 +1,16 @@
+// {
+//     "scenes": [
+//         {
+//             "id": 1,
+//             "title": "Scene 1",
+//             "points": ["Point 1", "Point 2", "Point 3"],
+//             "script": "This is the script for scene 1"
+//         },
+//         {
+//             "id": 2,
+//             "title": "Scene 2",
+//             "points": ["Point 4", "Point 5", "Point 6"],
+//             "script": "This is the script for scene 2"
+//         }
+//     ]
+// }

@@ -1,0 +1,54 @@
+{
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Introduction to MQTT",
+      "points": [
+        "MQTT stands for Message Queuing Telemetry Transport.",
+        "It is a protocol used for communication between IoT devices.",
+        "MQTT is lightweight and ideal for low-power devices."
+      ],
+      "script": "MQTT is a messaging protocol that allows Internet of Things (IoT) devices to communicate. It is designed to be simple and efficient, especially for devices that use low power and have limited internet connectivity."
+    },
+    {
+      "id": 2,
+      "title": "Why Use MQTT in IoT?",
+      "points": [
+        "It uses less bandwidth, making it suitable for IoT devices.",
+        "It supports real-time data transfer, which is important for IoT.",
+        "MQTT is reliable, even with weak internet connections."
+      ],
+      "script": "MQTT is popular in IoT because it uses minimal bandwidth, allowing devices to send and receive data quickly. This makes it possible for devices to work smoothly even with limited internet. MQTT is also reliable, so your devices stay connected."
+    },
+    {
+      "id": 3,
+      "title": "How MQTT Works",
+      "points": [
+        "MQTT uses a publish and subscribe model.",
+        "Devices send messages (publish) to a server called a broker.",
+        "Other devices can receive these messages if they subscribe to them."
+      ],
+      "script": "In MQTT, devices communicate by publishing messages to a broker. The broker then sends these messages to other devices that subscribe to the messages. This allows many devices to connect and share information easily."
+    },
+    {
+      "id": 4,
+      "title": "Examples of MQTT in IoT",
+      "points": [
+        "Smart home devices like lights and thermostats use MQTT.",
+        "Health devices, like fitness trackers, also use MQTT to send data.",
+        "Industrial machines use MQTT for monitoring and maintenance."
+      ],
+      "script": "MQTT is widely used in smart homes for controlling devices like lights and thermostats. It is also used in healthcare devices, like fitness trackers, to share data, and in factories for monitoring machines."
+    },
+    {
+      "id": 5,
+      "title": "Getting Started with MQTT",
+      "points": [
+        "To use MQTT, you need a broker like Mosquitto.",
+        "Devices can connect to the broker and start sharing data.",
+        "You can experiment with MQTT on a computer or with simple IoT devices."
+      ],
+      "script": "To start using MQTT, you need a broker, which is like a central server that all devices connect to. Popular brokers include Mosquitto, which you can install on your computer or a server. Once connected, devices can publish and subscribe to messages to share data easily."
+    }
+  ]
+}
